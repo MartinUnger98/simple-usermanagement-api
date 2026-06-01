@@ -35,7 +35,7 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
-      "Microsoft.OpenApi/2.7.5": {
+      "Microsoft.OpenApi/3.5.5": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.OpenApi.dll": {
@@ -395,10 +395,10 @@
         "tools/net462/netstandard.dll"
       ]
     },
-    "Microsoft.OpenApi/2.7.5": {
-      "sha512": "0FA67RSnRM4tcBKqiqVu/HPdZ9+QOKbmeRjxRUGTCjPU4C0bmUhd97Dso7Yild5P7nOV6GxJ2xrK0Kv/O9xp0w==",
+    "Microsoft.OpenApi/3.5.5": {
+      "sha512": "W2GCnZUskbJWz+FxvHsZaftz/sA4yNJ86Cs6TDZsCLrqOhCdPlkrVU4MKUK/KC9WqCIZq058arPTSMEXqQsJaA==",
       "type": "package",
-      "path": "microsoft.openapi/2.7.5",
+      "path": "microsoft.openapi/3.5.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -409,7 +409,7 @@
         "lib/netstandard2.0/Microsoft.OpenApi.dll",
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
-        "microsoft.openapi.2.7.5.nupkg.sha512",
+        "microsoft.openapi.3.5.5.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
     },
@@ -494,6 +494,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.AspNetCore.OpenApi >= 10.0.8",
+      "Microsoft.OpenApi >= 3.5.5",
       "Swashbuckle.AspNetCore >= 10.2.1"
     ]
   },
@@ -553,6 +554,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[10.0.8, )"
+          },
+          "Microsoft.OpenApi": {
+            "target": "Package",
+            "version": "[3.5.5, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

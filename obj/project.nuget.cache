@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "beV1zjKpZxM=",
+  "dgSpecHash": "dZ7mrzlKsYg=",
   "success": true,
   "projectFilePath": "C:\\Users\\marti\\OneDrive\\Desktop\\Coursera\\backend_development_.net\\Copilot_Project\\UserManagementAPI\\UserManagementAPI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\marti\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
-    "C:\\Users\\marti\\.nuget\\packages\\microsoft.openapi\\3.5.5\\microsoft.openapi.3.5.5.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\swashbuckle.aspnetcore\\10.2.1\\swashbuckle.aspnetcore.10.2.1.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.2.1\\swashbuckle.aspnetcore.swagger.10.2.1.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.2.1\\swashbuckle.aspnetcore.swaggergen.10.2.1.nupkg.sha512",

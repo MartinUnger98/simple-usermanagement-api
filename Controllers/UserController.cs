@@ -16,7 +16,6 @@ namespace UserManagementAPI.Controllers
             _userRepository = userRepository;
         }
 
-        // GET: api/users
         [HttpGet]
         public ActionResult<IEnumerable<User>> GetAllUsers()
         {
@@ -24,7 +23,6 @@ namespace UserManagementAPI.Controllers
             return Ok(users);
         }
 
-        // GET: api/users/{id}
         [HttpGet("{id:guid}")]
         public ActionResult<User> GetUserById(Guid id)
         {
@@ -38,7 +36,6 @@ namespace UserManagementAPI.Controllers
             return Ok(user);
         }
 
-        // POST: api/users
         [HttpPost]
         public ActionResult<User> CreateUser([FromBody] CreateUserDto dto)
         {
@@ -63,7 +60,6 @@ namespace UserManagementAPI.Controllers
             return CreatedAtAction(nameof(GetUserById), new { id = user.Id }, user);
         }
 
-        // PUT: api/users/{id}
         [HttpPut("{id:guid}")]
         public IActionResult UpdateUser(Guid id, [FromBody] UpdateUserDto dto)
         {
@@ -100,7 +96,6 @@ namespace UserManagementAPI.Controllers
             return NoContent();
         }
 
-        // DELETE: api/users/{id}
         [HttpDelete("{id:guid}")]
         public IActionResult DeleteUser(Guid id)
         {
